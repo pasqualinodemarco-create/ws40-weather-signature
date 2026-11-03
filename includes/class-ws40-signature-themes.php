@@ -4,7 +4,7 @@ if (!defined('ABSPATH')) { exit; }
 if (!class_exists('WS40_Signature_Themes', false)) {
 final class WS40_Signature_Themes {
     public static function names() {
-        return array('light'=>'Light Breeze', 'dark'=>'Midnight Weather', 'minimal'=>'Boletus Forest', 'custom'=>'Custom / Personalizzabile');
+        return array('light'=>'Light Breeze', 'dark'=>'Midnight Weather', 'minimal'=>'Boletus Forest', 'custom'=>'Custom');
     }
     public static function dimensions($layout) {
         return ($layout === 'card') ? array(560,280) : array(900,105);

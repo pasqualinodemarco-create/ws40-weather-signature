@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WS40 Weather Signature
  * Description: Creates live weather signature images for forums and email, with four selectable visual styles, compact/card layouts and configurable weather data sources.
- * Version: 0.4.4
+ * Version: 0.4.5
  * Author: John Martin
  * Requires at least: 5.8
  * Requires PHP: 7.4

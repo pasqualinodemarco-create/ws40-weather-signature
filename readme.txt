@@ -3,13 +3,13 @@ Contributors: ws40
 Tags: weather, signature, forum, email, weather station
 Requires at least: 5.8
 Requires PHP: 7.4
-Stable tag: 0.4.4
+Stable tag: 0.4.5
 License: GPLv2 or later
 
 Live, dynamically updated weather signature images for WordPress, forums, and email.
 
 == Description ==
-Generate a 900 × 105 horizontal banner or a 560 × 280 weather card from local WS40 records or an external JSON weather API. Choose Light Breeze, Midnight Weather, Boletus Forest, or Custom / Personalizzabile.
+Generate a 900 × 105 horizontal banner or a 560 × 280 weather card from local WS40 records or an external JSON weather API. Choose Light Breeze, Midnight Weather, Boletus Forest, or Custom.
 
 == Features ==
 * Four designs, each available in compact and card formats.
@@ -55,8 +55,13 @@ The older style=classic and style=scenic URLs are mapped to Light Breeze and Bol
 * The plugin does not alter the WS40 weather database.
 
 == Changelog ==
+= 0.4.5 =
+* Standardized all built-in interface and theme labels in English.
+* Translated repository documentation into English and updated the installation guide.
+* Rebuilt the installable ZIP with matching English documentation.
+
 = 0.4.4 =
-* Added a fourth Custom / Personalizzabile design with individual colors, opacity, optional remote image, and weather captions.
+* Added a fourth Custom design with individual colors, opacity, optional remote image, and weather captions.
 * Added PNG and SVG renderers dedicated to the Custom theme.
 * Removed unused Classic rendering methods and their obsolete helpers, and dropped an unused older minimal graphic asset.
 * Retained existing shortcode names, image URLs, WS40 data mapping, and stable directory.
